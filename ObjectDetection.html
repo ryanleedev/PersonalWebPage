@@ -254,10 +254,10 @@
 
             <div class="feature col pt-5">
                 <img class="img1" src="./resources/images/opencvresult.png" alt="alleyway-img" style="width: 100%;">
-                <p><b>Figure5.</b> Image processing flowchart</p>
+                <p><b>Figure6.</b> Image processing flowchart</p>
             </div>
             <p>
-                As shown in [Figure 5. Image processing flowchart], image frames are sequentially extracted as images, and one
+                As shown in [Figure 6. Image processing flowchart], image frames are sequentially extracted as images, and one
                 frame is extracted each time the while statement is repeated once. In the process, we change the color image to
                 black and white, select the section where we want to detect a moving object, and do not detect other areas. From
                 then on, MOG2 is used in order to remove the static background to black, extract the moving object to white, and
@@ -280,10 +280,10 @@
             </p>
             <div class="feature col pt-2">
                 <img class="img1" src="./resources/images/opvencvprocess.png" alt="alleyway-img" style="width: 100%;">
-                <p><b>&nbsp&nbsp&nbsp Figure6.</b> Erosion and Dilation</p>
+                <p><b>&nbsp&nbsp&nbsp Figure7.</b> Erosion and Dilation</p>
             </div>
             <p>
-                Through [Figure 6] above, we can remove the surrounding noise by gradually reducing the object area through erosion,
+                Through [Figure 7] above, we can remove the surrounding noise by gradually reducing the object area through erosion,
                 and through Dilation, we can increase the recognition rate of the object by filling the holes
                 inside the object. Through this, the closing and opening techniques can be well explained.
             </p>
@@ -293,12 +293,12 @@
                     <h3>Closing technique</h3>
                     <div class="feature col pt-1">
                         <img class="img1" src="./resources/images/closing.png" alt="Closing technique" style="width: 100%;">
-                        <p><b>Figure7.</b> Closing technique</p>
+                        <p><b>Figure8.</b> Closing technique</p>
                     </div>
                     <p class="gen">
                         In the case of the closing technique, it undergoes an erosion process after expansion. That is, after expanding the
                         object, it is possible to fill in the holes of the object without further increasing the noise through erosion. As
-                        can be seen in [Figure 7] above, the green colored object is emphasized, and the red colored noise is not greatly
+                        can be seen in [Figure 8] above, the green colored object is emphasized, and the red colored noise is not greatly
                         increased.
                     </p>
                 </div>
@@ -308,11 +308,11 @@
                     <h3>Closing technique</h3>
                     <div class="feature col pt-1">
                         <img class="img1" src="./resources/images/opening.png" alt="Closing technique" style="width: 100%;">
-                        <p><b>Figure8.</b> Closing technique</p>
+                        <p><b>Figure9.</b> Closing technique</p>
                     </div>
                     <p class="gen">
                         In contrast to the closing technique, the opening technique expands after the erosion process. Therefore, while
-                        removing the noise, the loss of the object is minimized. As shown in [Figure 8], it can be seen that the object is
+                        removing the noise, the loss of the object is minimized. As shown in [Figure 9], it can be seen that the object is
                         protected as much as possible, and the noise indicated in red is removed.
                     </p>
                 </div>
