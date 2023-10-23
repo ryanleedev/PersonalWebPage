@@ -5,7 +5,7 @@
     Lab Objective: css file for whole pages
 */
 
-/* This is for resposive react */
+/* This is for responsive react */
 @media screen and (min-width: 0px) {
   .popup { display: none;}
   
@@ -69,10 +69,16 @@
 /* Navbar css */
 .navbar {
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 .navbar-brand {
   font-family: 'Lobster';
+  font-size: 21px;
+}
+
+.uldiv{
+  display: flex; justify-content: flex-end;
 }
 
 .mainImg {
