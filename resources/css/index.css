@@ -324,9 +324,9 @@ a.link:hover {
 
 .toppage {
   text-decoration: none;
-  color: #92d2eb;
+  color: rgba(41, 41, 239, 0.815);
 }
 
 .toppage:hover {
-  color: rgba(30, 159, 245, 0.629);
+  color: #a0abdf;
 }
