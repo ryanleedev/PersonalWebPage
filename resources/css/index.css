@@ -324,9 +324,19 @@ a.link:hover {
 
 .toppage {
   text-decoration: none;
-  color: rgba(41, 41, 239, 0.815);
+  color: #92d2eb;
 }
 
 .toppage:hover {
-  color: #a0abdf;
+  color: white;
+}
+
+.btn-outline-primary{
+  border-color: #92d2eb !important;
+  border:none;
+}
+
+.btn-outline-primary:hover {
+  /* color: rgba(30, 159, 245, 0.629) !important; */
+  background-color: #92d2eb !important;
 }
