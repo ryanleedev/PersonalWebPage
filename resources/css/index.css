@@ -324,7 +324,7 @@ a.link:hover {
 
 .toppage {
   text-decoration: none;
-  color: #92d2eb;
+  color: #5cacdf;
 }
 
 .toppage:hover {
@@ -332,11 +332,11 @@ a.link:hover {
 }
 
 .btn-outline-primary{
-  border-color: #92d2eb !important;
+  border-color: #5cacdf !important;
   border:none;
 }
 
 .btn-outline-primary:hover {
   /* color: rgba(30, 159, 245, 0.629) !important; */
-  background-color: #92d2eb !important;
+  background-color: #5cacdf !important;
 }
