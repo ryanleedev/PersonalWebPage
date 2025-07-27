@@ -1,0 +1,342 @@
+/*
+    Name: Jeonghyeon Lee
+    Date: Mar 6th
+    File: index.css
+    Lab Objective: css file for whole pages
+*/
+
+/* This is for responsive react */
+@media screen and (min-width: 0px) {
+  .popup { display: none;}
+  
+  .media {
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .media {
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(128, 128, 128, 0.463);
+    margin:10px;
+  }
+  
+  .media2 { display: none; }
+
+  .popup {display: block;}
+
+  #algonquinLogodiv {
+    flex-direction: column;
+  }
+
+  .media-body {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .description {
+    min-width: 70vw;
+  }
+
+  .courseCode,
+  .courseName {
+    min-width: 50vw;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .courseCode2,
+  .courseName2,
+  .description2,
+  .thumbnail2,
+  .courseLevel2 {
+    justify-content: center;
+  }
+
+  .searchNav {
+    flex-direction: column;
+  }
+}
+
+/* Navbar css */
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-brand {
+  font-family: 'Lobster';
+  font-size: 21px;
+}
+
+.uldiv{
+  display: flex; justify-content: flex-end;
+}
+
+.mainImg {
+  width: 100%;
+}
+
+/* Footer Section */
+.footerIcon {
+  margin: 5px;
+}
+
+
+
+
+/* css for  index.html */
+.col-md-6 {
+  padding: 0;
+}
+
+.about {
+  height: 100%;
+  padding: 70px;
+}
+
+.pfimg {
+  width: 68%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a.link:link {
+  color: #92d2eb;
+}
+
+a.link:visited {
+  color: #92d2eb;
+}
+
+a.link:hover {
+  color: rgba(30, 159, 245, 0.629);
+}
+
+.pfimgresume {
+  width: 85%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* css for  resume.html */
+.cdetailbtn {
+  padding: 0px 0px 30px 10px
+}
+
+.duration {
+  text-align: right;
+  list-style: none;
+  padding: 0px 0px 10px 0px;
+}
+
+.liPaddingDown {
+  paDding: 0px 0px 20px 0px;
+  list-style: none;
+}
+
+
+/* css for courses.html */
+.searchNav {
+  display: flex;
+}
+
+.filter,
+.sort {
+  padding: 2% 0% 1% 0.5%;
+  align-items: right;
+}
+
+.searchBar {
+  padding: 2% 0% 1% 0.5%;
+  min-width: 200px;
+  width: 30vw;
+  display: flex;
+}
+
+.dropdown-toggle {
+  margin: 0% 0% 0% 0.5%;
+  width: 160px;
+}
+
+.popup {
+  font-weight: bold;
+  background-color: rgba(176,196,222);
+  border-style: solid;
+  border-radius: 60px;
+  border-color: rgba(176,196,222);
+  width: 50%;
+}
+
+
+
+.media-body {
+  display: flex;
+}
+
+.media2 {
+  padding: 0px 0px 0px 30px;
+  background-color: lightgray;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.courseImg {
+  width: 78px;
+  height: 100px;
+}
+
+.courseCode,
+.courseName,
+.description,
+.thumbnail,
+.courseLevel {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.thumbnail {
+  min-width: 9vw;
+}
+
+.courseCode {
+  width: 9vw;
+  min-width: 90px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.courseName {
+  width: 15vw;
+  font-weight: bold;
+}
+
+.description {
+  width: 50w;
+}
+
+.courseLevel {
+  width: 8vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.courseCode2,
+.courseName2,
+.description2,
+.thumbnail2,
+.courseLevel2 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.thumbnail2 {
+  width: 7.5vw;
+}
+
+.courseCode2,
+.courseName2 {
+  font-weight: bold;
+
+}
+
+.description2 {
+  width: 70vw;
+  justify-content: center;
+}
+
+.courseLevel2 {
+  width: 12vw;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+:hover.media {
+  background: lightgray;
+}
+
+#algonquinLogo {
+  width: 200px;
+}
+
+#algonquinLogodiv {
+  padding: 40px 10px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#department {
+  color: rgb(0, 96, 0);
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#major {
+  color: rgb(0, 96, 0);
+  font-size: 25px;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.projCon {
+  padding: 30px 0px 20px 0px;
+}
+
+.projectsUl {
+  padding: 2  0px 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+/* footer css */
+#toppagediv {
+  text-align: center;
+}
+
+.toppage {
+  text-decoration: none;
+  color: #5cacdf;
+}
+
+.toppage:hover {
+  color: white;
+}
+
+.btn-outline-primary{
+  border-color: #5cacdf !important;
+  border:none;
+}
+
+.btn-outline-primary:hover {
+  /* color: rgba(30, 159, 245, 0.629) !important; */
+  background-color: #5cacdf !important;
+}

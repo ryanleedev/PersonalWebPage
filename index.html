@@ -1,0 +1,78 @@
+<!--
+    Name: Jeonghyeon Lee
+    Date: Mar 6th
+    File: index.html
+    Objective: This is index page
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is personal web page">
+  <meta name="keywords" content="customer, registeration">
+  <meta name="author" content="Jeonghyeon Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeonghyeon(Ryan)'s Journey</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/060a7ea6af.js" crossorigin="anonymous"></script>
+  <script src="./include.js" defer></script>
+</head>
+
+
+
+
+
+
+<body class="bg-dark">
+
+  <header data-include="./resources/components/header.html"></header>
+  <img class="mainImg" src="./resources/images/index.jpg" alt="home">
+
+  <main>
+    <div class="position-relative text-center bg-dark">
+      <div class="col-lg-20 p-lg-5 mx-auto">
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class=" text-bg-dark about">
+              <h2 id="about">ABOUT ME</h2>
+              <br>
+              <p>Welcome to my journey! My name is Ryan Lee. I'm an <b>IT Specialist</b>
+                at Halton Hills Public Library
+                with an interest in Big Data, Machine Learning, and Web Development.
+                I studyed <a class="link"
+                  href="https://www.algonquincollege.com/sat/program/computer-programming/#summary"
+                  target="_blank">Computer Programming</a> at Algonquin College,
+                Ontario, Canada. I also have a <a class="link" href="https://me.inu.ac.kr/me_eng/11407/subview.do"
+                  target="_blank">B.Eng in Mechanical
+                  Engineering and Robotics</a> at Incheon National University from back in South Korea.
+
+              </p>
+              <br>
+              <a href="resume.html" class="btn btn-outline-light button">Find out more..</a>
+            </div>
+          </div>
+          <div class="col-md-6 p-4 bg-dark">
+            <img src="./resources/images/profile.jpg" alt="profile photo" class="pfimg">
+            <!-- <img src="profile.jpg" alt="profile photo" class="img-fluid"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="toppagediv" data-include="./resources/components/footer.html"></footer>
+
+</html>

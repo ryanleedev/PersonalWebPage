@@ -1,0 +1,147 @@
+<!--
+    Name: Jeonghyeon Lee
+    Date: May 2nd
+    File: projects.html
+    Objective: This is projects page
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is personal web page">
+  <meta name="keywords" content="customer, registeration">
+  <meta name="author" content="Jeonghyeon Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeonghyeon(Ryan)'s Journey</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="./include.js" defer></script>
+</head>
+
+
+<body>
+
+  <header data-include="./resources/components/header.html"></header>
+  <img class="mainImg" src="./resources/images/projects.jpg" alt="home">
+
+  <main class="container">
+
+    <div class="projCon">
+      <div class="col-md">
+        <!-- recent work -->
+        <h2 class="mb-5">Projects</h2>
+        <div class="row">
+
+          <div class="col-md mb-3">
+            <a href="maintenance.html" target="_blank">
+            <!-- <a href="http://lazyoffrlee.duckdns.org/" target="_blank"> -->
+              <img class="img-fluid img-thumbnail" src="./resources/images/tourProj.gif" alt="tourProj">
+            </a>
+          </div>
+          <div class="col-md mb-3">
+            <h4>Tourist spot recommendation app by Machine Learning model</h4>
+            <p>Recommends tourist spots based on XGBoost ML model trained with weather factors.</p>
+            Web Site:<a href="maintenance.html" target="_blank">
+            <!-- Web Site:<a href="http://lazyoffrlee.duckdns.org/" target="_blank"> -->
+              http://lazyoffrlee.duckdns.org/
+            </a>
+            <br>
+            Git:<a href="https://github.com/ryanleedev/touristSpotsRecommend-English" target="_blank">
+              Click
+            </a>
+            <ul class="projectsUl">
+              <li>Machine Learning model: XGBoost - XGBRegressor</li>
+              <li>Input: Avg/Highest/Lowest Temp, Weather, Precipitation, Month, Weekday</li>
+              <li>Target: Number of navigation searches by tourist destination</li>
+              <li>Train score: 93.57% / Test score: 88.18%</li>
+              <li>Weather scrap, model run every 06:10/18:10 (Batched) </li>
+            </ul>
+          </div>
+          <hr>
+
+
+          <div class="col-md mb-3">
+            <a href="https://crud-forum-nodejs.vercel.app/" target="_blank">
+              <img class="img-fluid img-thumbnail" src="./resources/images/forum.gif" alt="forum recent work">
+            </a>
+          </div>
+          <div class="col-md mb-3">
+            <h4>Open Forum (Open Blog)</h4>
+            <p>Open Forum where everyone can post their stories.</p>
+            Web Site:<a href="https://crud-forum-nodejs.vercel.app/" target="_blank">
+              https://crud-forum-nodejs.vercel.app/
+            </a>
+            <br>
+            Git:<a href="https://github.com/ryanleedev/CRUD_forum" target="_blank">
+              Click
+            </a>
+            <ul class="projectsUl">
+              <li>Web page where anyone can post their content with images</li>
+              <li>Implemented CRUD(Create, Read, Update, Delete) with PHP</li>
+              <li>Used DAO pattern to access DB</li>
+              <li>Validate the author with the password stored in DB with XMLHttpRequest</li>
+            </ul>
+          </div>
+          <hr>
+
+          <div class="col-md mb-3">
+            <a href="./ObjectDetection.html" target="_blank">
+              <img class="img-fluid img-thumbnail" src="./resources/images/objectDetection.gif" alt="objectDetection">
+            </a>
+          </div>
+          <div class="col-md mb-3">
+            <h4>Prevention of alleyway accidents with MOG2 algorithm and GIS analysis</h4>
+            <p>Implementing a moving object detection system at alleyway intersections to prevent car accidents</p>
+            Project Overview:<a href="./ObjectDetection.html" target="_blank">
+              Go to link
+            </a>
+            <br>
+            Git:<a href="https://github.com/ryanleedev/OpenCV_ObjectDetection" target="_blank">
+              Click
+            </a>
+            <ul class="projectsUl">
+              <li>A warning sign will be triggered when a moving object crosses the designated line</li>
+              <li>Used MOG2 algorithm for background removal</li>
+              <li>To improve object detection, we applied Closing, Opening, and Dilation techniques, which involved
+                morphological operations to process and manipulate the input image</li>
+            </ul>
+          </div>
+          <hr>
+
+
+
+        </div>
+        <div class="row">
+          <div class="col-md mb-3">
+            <a href="./resources/RecentWork/lab2/customer.html" target="_blank">
+              <img class="img-fluid img-thumbnail" src="./resources/images/lab2.gif" alt="lab2 recent work">
+            </a>
+          </div>
+          <div class="col-md mb-3">
+            <a href="./resources/RecentWork/lab3/lab3-bootstrap/Lab3.html" target="_blank">
+              <img class="img-fluid img-thumbnail" src="./resources/images/lab3.gif" alt="lab3 recent work">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer data-include="./resources/components/footer.html"></footer>
+
+</html>
